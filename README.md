@@ -29,7 +29,7 @@ The server runs on http://localhost:8000
 #### Get all items
 
 ```http
-  GET /ph/
+  GET /books/
 ```
 
 | Parameter | Type     | Description                |
