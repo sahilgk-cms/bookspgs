@@ -1,6 +1,7 @@
 # bookspgs
 Django Rest Framework with PGSQL
-- The data will be loaded from csvs to pgsql database inside the Docker conatiner.
+- The data will be loaded from csvs to PostgreSQL database inside the Docker conatiner.
+- Django Rest Framework will connect to the PostgreSQL database.
 
 ## Folder structure
 
