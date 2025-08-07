@@ -12,12 +12,20 @@ Django Rest Framework with PGSQL
   myvenv\Scripts\activate
 ```
 
-Install the requirements
+Run the docker-compose file inside the terminal.
 ```bash
-  pip install -r "requirements.txt"
+docker-compose up --build
 ```
 
-Run the manage.py file....
+Now open another terminal and go inside the same repo
+```bash
+docker exec -it django_web bash
+```
+Run make migrations and migrate inside the docker container
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
 
 ```bash
   python manage.py runserver
