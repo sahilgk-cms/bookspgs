@@ -2,7 +2,7 @@
 Django Rest Framework with PGSQL
 - The data will be loaded from csvs to PostgreSQL database inside the Docker conatiner.
 - Django Rest Framework will connect to the PostgreSQL database.
-- I have tried containerizing Django and PostgreSQL.
+- I have tried containerizing Django and PostgreSQL using Docker.
 - Here are some changes that are required.
 
 <img width="1308" height="626" alt="image" src="https://github.com/user-attachments/assets/3d0ab607-8965-4ba1-a8d4-0be553b0aa30" />
