@@ -17,7 +17,7 @@ Run the docker-compose file inside the terminal.
 docker-compose up --build
 ```
 
-Now open another terminal and go inside the same repo
+Now open another terminal, go inside the same repo to run python commands inside the docker container - django_web
 ```bash
 docker exec -it django_web bash
 ```
@@ -25,11 +25,33 @@ Run make migrations and migrate inside the docker container
 ```bash
 python manage.py makemigrations
 python manage.py migrate
+exit
+```
+Now run this command to get pgsql shell
+```bash
+docker-compose exec db psql -U postgres
+```
+Connect to database
+```bash
+\c book
+```
+View the number of tables
+```bash
+\dt 
+```
+View table info for the particular table. Other tables can be checked similarly.
+```bash
+\d booktable
+```
+Once we see all tables are present, exit the pgsql shell using the command
+```bash
+\q
+```
+Now run the load_data.py file to populate the database.
+```bash
+docker exec -it django_web python load_data.py
 ```
 
-```bash
-  python manage.py runserver
-```
 The server runs on http://localhost:8000
 
 ## API Reference
