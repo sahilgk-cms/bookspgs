@@ -41,6 +41,8 @@ View the number of tables
 ```bash
 \dt 
 ```
+<img width="763" height="392" alt="image" src="https://github.com/user-attachments/assets/a2b27e00-f54b-4a2a-9704-e484735311a9" />
+
 View table info for the particular table. Other tables can be checked similarly.
 ```bash
 \d booktable
@@ -49,7 +51,7 @@ Once we see all tables are present, exit the pgsql shell using the command
 ```bash
 \q
 ```
-Now run the load_data.py file to populate the database.
+Now run the load_data.py file to populate the database. zit will load the 3 csvs into the database.
 ```bash
 docker exec -it django_web python load_data.py
 ```
