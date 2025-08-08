@@ -74,3 +74,5 @@ The server runs on http://localhost:8000
 | :-------- | :------- | :------------------------- |
 | None |  | Fetches JSON containing all articles from MongoDB |
 <img width="1212" height="696" alt="image" src="https://github.com/user-attachments/assets/ea5013cd-e418-46df-a450-87ad9a834c5e" />
+
+Other API endpoints can be tried similarly
