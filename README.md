@@ -4,6 +4,7 @@ Django Rest Framework with PGSQL
 - Django Rest Framework will connect to the PostgreSQL database.
 - I have tried containerizing Django and PostgreSQL using Docker.
 - Here are some changes that are required especially in **settings.py** and **docker-compose.yml**
+- Enter your **username** and **password** in **settings.py** and **docker-compose.yml** before running docker.
 
 <img width="1308" height="626" alt="image" src="https://github.com/user-attachments/assets/3d0ab607-8965-4ba1-a8d4-0be553b0aa30" />
 
