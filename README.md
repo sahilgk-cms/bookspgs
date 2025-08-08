@@ -14,8 +14,6 @@ Django Rest Framework with PGSQL
 
 ```bash
   cd bookspgs
-  python venv myvenv
-  myvenv\Scripts\activate
 ```
 
 Run the docker-compose file inside the terminal.
