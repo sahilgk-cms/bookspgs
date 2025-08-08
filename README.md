@@ -12,7 +12,7 @@ Django Rest Framework with PGSQL
 ## Installation
 
 ```bash
-  cd ph_drf
+  cd bookspgs
   python venv myvenv
   myvenv\Scripts\activate
 ```
